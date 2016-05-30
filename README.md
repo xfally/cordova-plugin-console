@@ -55,6 +55,7 @@ This plugin is not the cause of that, it is a limitation of Android itself.
 
 The plugin support following methods of the `console` object:
 
+- `console.level`
 - `console.log`
 - `console.error`
 - `console.exception`

@@ -64,6 +64,11 @@ console.useLogger = function (value) {
 };
 
 //------------------------------------------------------------------------------
+console.level = function(level) {
+	return logger.level(level);
+};
+
+//------------------------------------------------------------------------------
 console.log = function() {
     if (logger.useConsole()) return;
     logger.log.apply(logger, [].slice.call(arguments));
